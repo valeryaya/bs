@@ -1,0 +1,59 @@
+@font-face{
+  font-family:vvv ;
+  src:url(../fonts/static/Nunito-Regular.ttf);
+}
+body{
+	font-family:vvv ;
+	background-color:#e8ecfc;
+}
+input{
+	font-family:vvv;
+	 }
+textarea{
+	font-family:vvv;
+}
+select{
+	font-family:vvv;
+}
+.zay{
+	border-style: solid;
+	border-color: #6495ED;
+	border-width: 10px;
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-bottom: 20px;
+}
+
+.zay2{
+	background: #e8ecfc;
+	border-radius: 7px;
+	width: 200px; 
+	text-align: center;
+}
+
+.zay3{
+	background: white;
+	border-radius: 25px;
+	width: 150px;
+
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.zay3:hover {
+  box-shadow: 0 0 40px 40px #6495ED inset;
+
+}
+.osn{
+	text-align: center;
+}
+
+
+a{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+}
+a:hover{
+border-bottom: 1px solid black;
+}
